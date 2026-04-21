@@ -1,0 +1,6 @@
+{
+  "name": "WinGames Collection",
+  "description": "A collection of classic Windows games like Minesweeper and Solitaire, featuring a nostalgic desktop interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

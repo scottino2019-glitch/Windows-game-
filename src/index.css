@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+@layer components {
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .game-card {
+    @apply transition-all duration-300 cursor-pointer hover:-translate-y-1 hover:shadow-xl;
+  }
+
+  .solitaire-gradient {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  }
+
+  .mines-gradient {
+    background: linear-gradient(135deg, #374151 0%, #6b7280 100%);
+  }
+
+  .spider-gradient {
+    background: linear-gradient(135deg, #166534 0%, #22c55e 100%);
+  }
+
+  .hearts-gradient {
+    background: linear-gradient(135deg, #991b1b 0%, #ef4444 100%);
+  }
+
+  .chess-gradient {
+    background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
+  }
+
+  .mahjong-gradient {
+    background: linear-gradient(135deg, #6b21a8 0%, #a855f7 100%);
+  }
+}
